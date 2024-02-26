@@ -3,3 +3,58 @@
    margin: 0;
    padding: 0;
 }
+
+.item1 {
+   grid-area: item1;
+   background-color: #007f5f;
+}
+
+.item2 {
+   grid-area: item2;
+   background-color: #2b9348;
+}
+
+.item3 {
+   grid-area: item3;
+   background-color: #80b918;
+}
+
+.item4 {
+   grid-area: item4;
+   background-color: #dddf00;
+}
+
+.item5 {
+   grid-area: item5;
+   background-color: #eeef20;
+}
+
+.item6 {
+   grid-area: item6;
+   background-color: #ffff3f;
+}
+
+.item7 {
+   grid-area: item7;
+   background-color: #55a630;
+}
+
+.item8 {
+   grid-area: item8;
+   background-color: #aacc00;
+}
+
+.item9 {
+   grid-area: item9;
+   background-color: #bfd200;
+}
+
+.item10 {
+   grid-area: item10;
+   background-color: #d4d700;
+}
+
+.item11 {
+   grid-area: item11;
+   background-color: #007f5f;
+}
