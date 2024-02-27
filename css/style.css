@@ -25,7 +25,8 @@ main {
 .grid-container {
    background-color: #ffffff;
    display: grid;
-   grid-template-columns: repeat(6, 1fr);
+   /* grid-template-columns: repeat(6, 1fr); */
+   grid-template-columns: 0em 1fr 1fr 1fr 1fr 1fr 0em;
    grid-template-rows: repeat(20, 1fr);
    gap: 24px;
    width: 100vw;
@@ -33,12 +34,12 @@ main {
 }
 
 .item1 {
-   grid-area: 2/1/7/3;
+   grid-area: 2/2/7/3;
    background-color: #007f5f;
 }
 
 .item2 {
-   grid-area: 7/1/13/3;
+   grid-area: 7/2/13/3;
    background-color: #2b9348;
 }
 
@@ -63,7 +64,7 @@ main {
 }
 
 .item7 {
-   grid-area: 13/1/21/3;
+   grid-area: 13/2/21/3;
    background-color: #55a630;
 }
 
@@ -88,7 +89,7 @@ main {
 }
 
 .item12 {
-   grid-area: 21/1/24/7;
+   grid-area: 21/1/24/8;
    background-color: #9bc1bc;
    padding-left: 24px;
 }
